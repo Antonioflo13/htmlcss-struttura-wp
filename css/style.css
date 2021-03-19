@@ -1,15 +1,15 @@
 /* debug */
-nav {
-    height: 142px;
-    background-color: #E679E6;
-}
-
 body {
     width: 75%;
     margin: 30px auto;
 }
 
-header {
+nav {
+    height: 142px;
+    background-color: #E679E6;
+}
+
+.banner {
     height: 502px;
     background-color: #E1D67A;
 }
@@ -24,7 +24,8 @@ main {
     background-color: #ABCFE7;
 }
 
-aside.left {
+aside.left,
+aside.right {
     float: left;
     width: 23%;
     height: 538px;
@@ -35,22 +36,15 @@ article {
     float: left;
     width: 50%;
     height: 538px;
-    margin: 0 2%;
+    margin: 0 2%;           
     background-color: #ABCFE7;
 }
-
-aside.right {
-    float: left;
-    width: 23%;
-    height: 538px;
-    background-color: #ABCFE7;
-}
-
 
 footer {
     height: 62px;
     background-color: #8803FE;
 }
+
 /* /debug */
 
 
@@ -79,6 +73,8 @@ footer {
     margin-bottom: 25px;
 }
 /* /common */
+
+
 
 
 
